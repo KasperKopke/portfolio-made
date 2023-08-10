@@ -39,7 +39,7 @@ h1 {
   background-color: #ededed;
 }
 .projects {
-  padding: 6.5% 14.6%;
+  padding: 6.5% 10.5%;
 }
 .projects h2 {
   font-weight: 100;
@@ -76,14 +76,12 @@ footer img {
   max-width: 350px;
 }
 
-@media screen and (max-width: 1710px) {
-  .projects {
-    padding: 6.5% 5.6%;
-  }
-}
 @media screen and (max-width: 1540px) {
   .projects {
-    padding: 12.5%;
+    padding: 6.5% 7.3%;
+  }
+  .projects-flex article img {
+    max-width: 300px;
   }
 }
 @media screen and (max-width: 600px) {
