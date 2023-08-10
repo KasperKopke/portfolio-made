@@ -7,7 +7,7 @@ body {
   font-family: "Quicksand", sans-serif;
 }
 header {
-  background-image: url(assets/banner.jpg);
+  background-image: url(../assets/banner.jpg);
   height: 37vh;
   background-position: center;
   background-size: cover;
@@ -48,13 +48,13 @@ h1 {
   top: -70px;
   left: 0;
 }
-.projects-felx article img {
+.projects-flex article img {
   max-width: 350px;
 }
-.projects-felx {
+.projects-flex {
   display: grid;
-  grid-template-columns: 4fr;
-  grid-template-rows: 2fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   grid-template-areas:
     "box1 box2 box3 box4"
     "box5 box6 box7 box8";
