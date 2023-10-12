@@ -1,42 +1,20 @@
 [
   {
-    "img": "./assets/test5.jpg",
-    "alt": "strand",
-    "link": "#"
+    "img": "./assets/date.jpg",
+    "alt": "DateMate",
+    "link": "https://datemate.netlify.app",
+    "media": "media"
   },
   {
-    "img": "./assets/test5.jpg",
-    "alt": "strand",
-    "link": "#"
+    "img": "./assets/netflix.jpg",
+    "alt": "Netflix Opgave",
+    "link": "https://sunny-sprite-44f861.netlify.app",
+    "media": "media"
   },
   {
-    "img": "./assets/test5.jpg",
-    "alt": "strand",
-    "link": "#"
-  },
-  {
-    "img": "./assets/test5.jpg",
-    "alt": "strand",
-    "link": "#"
-  },
-  {
-    "img": "./assets/test5.jpg",
-    "alt": "strand",
-    "link": "#"
-  },
-  {
-    "img": "./assets/test5.jpg",
-    "alt": "strand",
-    "link": "#"
-  },
-  {
-    "img": "./assets/test5.jpg",
-    "alt": "strand",
-    "link": "#"
-  },
-  {
-    "img": "./assets/test5.jpg",
-    "alt": "strand",
-    "link": "#"
+    "img": "./assets/lege.jpg",
+    "alt": "Legekrogen",
+    "link": "https://snazzy-seahorse-18c06e.netlify.app",
+    "media": "media"
   }
 ]

@@ -48,8 +48,15 @@ h1 {
   top: -70px;
   left: 0;
 }
+.projects h3 {
+  font-weight: 400;
+}
 .projects-flex article img {
   max-width: 350px;
+  min-width: 350px;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
 }
 .projects-flex {
   display: flex;
@@ -57,6 +64,7 @@ h1 {
   justify-content: center;
   gap: 30px;
   position: relative;
+  flex-direction: column;
 }
 .project-container {
   display: flex;
@@ -64,9 +72,12 @@ h1 {
   justify-content: flex-start;
   gap: 30px;
   position: relative;
+  margin-bottom: 75px;
 }
 .effect {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   transition: all 0.1s ease-in-out;
+  border-radius: 10px;
 }
 .effect:hover {
   scale: 1.05;
@@ -77,10 +88,12 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 8%;
+  padding: 1%;
 }
 footer h2 {
   color: white;
+  font-size: 18px;
+  font-weight: 400;
 }
 .profile p {
   text-align: center;
@@ -91,6 +104,7 @@ footer h2 {
   }
   .projects-flex article img {
     max-width: 300px;
+    min-width: 300px;
   }
 }
 @media screen and (max-width: 600px) {

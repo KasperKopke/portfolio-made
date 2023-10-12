@@ -1,0 +1,32 @@
+[
+  {
+    "img": "./assets/mock.jpg",
+    "alt": "Opgave Hansenberg",
+    "link": "https://glistening-pasca-ad3cf7.netlify.app/#",
+    "hansenberg": "hansenberg"
+  },
+  {
+    "img": "./assets/landingpage.png",
+    "alt": "Landigpage",
+    "link": "https://glowing-brioche-924b72.netlify.app",
+    "hansenberg": "hansenberg"
+  },
+  {
+    "img": "./assets/drone.jpg",
+    "alt": "Droneside",
+    "link": "https://droneifly.netlify.app",
+    "hansenberg": "hansenberg"
+  },
+  {
+    "img": "./assets/inter.jpg",
+    "alt": "Interflora",
+    "link": "https://playful-lokum-04c99d.netlify.app/",
+    "hansenberg": "hansenberg"
+  },
+  {
+    "img": "./assets/applab.jpg",
+    "alt": "Applap",
+    "link": "https://vermillion-elf-fbf1f0.netlify.app/",
+    "hansenberg": "hansenberg"
+  }
+]
