@@ -58,6 +58,13 @@ h1 {
   gap: 30px;
   position: relative;
 }
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 30px;
+  position: relative;
+}
 .effect {
   transition: all 0.1s ease-in-out;
 }
@@ -72,10 +79,12 @@ footer {
   align-items: center;
   padding: 8%;
 }
-footer img {
-  max-width: 350px;
+footer h2 {
+  color: white;
 }
-
+.profile p {
+  text-align: center;
+}
 @media screen and (max-width: 1540px) {
   .projects {
     padding: 6.5% 7.3%;
@@ -85,6 +94,12 @@ footer img {
   }
 }
 @media screen and (max-width: 600px) {
+  .project-container {
+    justify-content: center;
+  }
+  .projects {
+    padding: 18.5% 8%;
+  }
   header {
     height: 25vh;
   }
